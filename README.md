@@ -4,15 +4,15 @@ Omega Race is a traditionally locally played game; however, for a class project,
 
 I chose the samples I did because they demonstrate both my fundamental ability to code and my ability to write effective code and adapt to issues as they arise.  
 
-Omega Race Code Sample. Includes: 
+**Omega Race Code Sample. Includes:** 
   - 4 Classes, NetworkManager, MessagePoolManager, MessagePool, DataMessage.
   - UML Diagram of the classes.
 
-**NetworkManager**
+**NetworkManager:**
 The NetworkManager class is responsible for managing network connections and communication. It provides methods for initializing the server, sending and receiving data, and processing incoming network messages.
 
-**MessagePool & MessagePoolMaanger**
+**MessagePool & MessagePoolMaanger:**
 The MessagePool and MessagePoolManager classes provide object-pooling functionality for different types of data messages. The MessagePool class manages a pool of DataMessage objects with a specific message type, allowing efficient reuse and recycling of objects. The MessagePoolManager class initializes and provides access to different message pools for InputMessages, ObjectMessages, and EventMessages. 
 
-**DataMessage**
+**DataMessage:**
 The DataMessage class is an abstract base class that is a foundation for different types of messages in the OmegaRace game. It defines common properties and methods for data serialization, deserialization, printing, and execution. 
