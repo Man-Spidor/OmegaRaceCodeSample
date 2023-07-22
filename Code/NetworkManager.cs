@@ -29,7 +29,7 @@ namespace OmegaRace
         }
 
         private const int serverPort = 14240;
-        private const string serverAddress = "192.168.0.141";
+        private const string serverAddress = "192.168.0.1";
         private static NetClient client;
         private static Mode mode;
 
